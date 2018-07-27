@@ -27,7 +27,7 @@ ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
 
 
 #Spark
-RUN wget -O - http://www-us.apache.org/dist/spark/spark-2.2.1/spark-2.2.1-bin-hadoop2.7.tgz | tar zx
+RUN wget -O - http://d3kbcqa49mib13.cloudfront.net/spark-2.1.1-bin-hadoop2.6.tgz | tar zx
 RUN mv /spark* /spark
 
 #ElasticSearch
